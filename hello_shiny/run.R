@@ -1,0 +1,7 @@
+getwd()
+old.dir <- getwd()
+setwd("./hello_shiny")
+getwd()
+library(shiny)
+runApp()
+setwd(old.dir)
